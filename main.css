@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+*{
+	box-sizing: border-box;
+	background: #FDFCEF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.4em
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+p {
+	margin: 0;
+	line-height: 1.37em;
+}
+
+section {
+	padding-top: 120px;
+}
+
+.btn {
+	background: #FF6861;
+	border-radius: 100px;
+	color: #FFFFFF;
+	padding: 22px 70px;
+	width: 227px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700px;
+	display: block;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #FE837D;
+}
+
+.introtext {
+	font-size: 18px;
+	margin: 30px 0px;
+	width: 423px
+}
+
+.headpicture {
+	margin-left: 180px;
+}
+
+.header {
+	padding-top: 60px;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.offer-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 82px;
+}
+
+.offer {
+	width: 465px;
+}
+
+.logo {
+	margin: 0 auto;
+	display: block;
+	margin-left: 0;
+}
+
+.digit-item {
+	display: flex;
+	align-items: center;
+}
+
+.list {
+	width: 73px;
+	height: 73px;
+	transition: all 0.5s ease;
+}
+
+.digit-item:hover .list{
+	width: 83px;
+	height: 83px;
+}
+
+.digit-wrap {
+	margin-left: 34px;
+}
+
+.digit-title {
+	font-size: 30px;
+	margin-bottom: 11px;
+}
+
+.digits {
+	width: 720px;
+	display: flex;
+	flex-direction: column;
+	gap: 41px;
+	margin: 70px auto 0 auto;
+}
+
+.practice-wrap {
+	background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+	border-radius: 60px;
+	display: flex;
+	padding: 76px 513px 75px 122px;
+	align-items: center;
+}
+
+.practice-block {
+	width: 475px;
+	background-color: transparent;
+}
+
+.practice-title {
+	text-align: left;
+	background-color: transparent;
+}
+
+.practice-text {
+	width: 371px;
+	margin: 24px 0px;
+	background-color: transparent;
+}
+
+.practice-picture {
+	margin-left: 101px;
+	width: 287px;
+	height: 287px;
+	background: url(image.png);
+}
+
+.footer {
+	padding: 120px 0;
+	text-align: center;
+	font-size: 15px;
+}
+
